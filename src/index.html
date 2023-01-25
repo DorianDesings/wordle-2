@@ -9,7 +9,20 @@
     <title>Vite Template</title>
   </head>
   <body>
-    <img src="assets/images/anubis.jpg" width="500px" alt="anubis" />
+    <main class="main">
+      <h1 class="title">WORDLE</h1>
+      <div id="game-board" class="game-board"></div>
+      <form id="user-word-form">
+        <input
+          type="text"
+          name="word"
+          class="input"
+          placeholder="type your solution"
+        />
+      </form>
+    </main>
+    <div id="modal" class="modal"></div>
+    <div id="pop-up" class="pop-up"></div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
