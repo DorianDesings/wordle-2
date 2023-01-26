@@ -1,5 +1,5 @@
 const NUMBER_OF_TRIES = 5;
-import { gameBoard } from './constants.js';
+const gameBoard = document.getElementById('game-board');
 
 const createGameBoard = secretWord => {
   const fragment = document.createDocumentFragment();

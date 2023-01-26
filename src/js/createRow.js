@@ -1,4 +1,4 @@
-import { gameBoard } from './constants.js';
+const gameBoard = document.getElementById('game-board');
 let currentRow = 0;
 
 const paintLetter = (letter, position, className, delay) => {

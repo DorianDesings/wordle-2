@@ -25,4 +25,4 @@ export const ALL_WORDS = [
 
 export const NUMBER_OF_TRIES = 5;
 
-export const gameBoard = document.getElementById('game-board');
+
